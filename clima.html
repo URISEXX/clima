@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscador Geográfico Profesional</title>
+<link rel="stylesheet" href="estilos/estilos.css">
+
+<!-- LIBRERÍAS DE LEAFLET (Estas dos líneas evitan el error "L is not defined") -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</head>
+<body>
+<header>
+<h1> Localizador de Clima UARO </h1>
+<p>Consumo de API OpenStreetMap con control de versiones integral. Uriel Antonio Ramos Osornio</p>
+</header>
+
+Uriel Antonio Ramos Osornio
+
+<main>
+<div class="search-container">
+<input type="text" id="city-input" placeholder="Introduce un lugar (ej. Monterrey, Madrid)...">
+<button id="search-btn">Consultar API</button>
+</div>
+<div id="weather-card" class="weather-card">
+<p>Introduce una ubicación para desplegar las coordenadas y descripción geográfica. </p>
+</div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
